@@ -9,7 +9,8 @@ const arr = [
 const populateHTML = (array) => {
   let htmlString = '';
   for (let i = 0; i < array.length;) {
-    for (const n of array) {
+    // eslint-disable-next-line
+    array.forEach((n) => {
       if (n.index === i) {
         let check = '';
         if (n.completed) {
@@ -18,7 +19,7 @@ const populateHTML = (array) => {
         htmlString += `<li class="item" ><input type="checkbox" ${check}>${n.description}</li>`;
         i += 1;
       }
-    };
+    })
   }
 
   return htmlString;
