@@ -19,7 +19,7 @@ const populateHTML = (array) => {
         htmlString += `<li class="item" ><input type="checkbox" ${check}>${n.description}</li>`;
         i += 1;
       }
-    })
+    });
   }
 
   return htmlString;
