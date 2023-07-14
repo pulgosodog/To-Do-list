@@ -1,5 +1,5 @@
 body {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   font-family: sans-serif;
   font-size: 1.3rem;
   margin: 0;
@@ -15,7 +15,7 @@ section {
 
 div.container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:65vw;
+  width: 65vw;
 }
 
 h1 {
@@ -30,7 +30,6 @@ input {
 }
 
 input[type="text"]:focus {
-  
   outline: none;
 }
 
@@ -48,7 +47,7 @@ div.complete {
   font-size: 1.4rem;
   font-weight: 400;
   color: grey;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   display: flex;
   justify-content: center;
 }
@@ -57,8 +56,8 @@ div.complete {
   background-color: white;
   width: 98%;
   margin: 0;
-  padding: 1.5vh 0 1.5vh 2% ;
-  border-color: #C1C1C3;
+  padding: 1.5vh 0 1.5vh 2%;
+  border-color: #c1c1c3;
   border-width: 1px;
   border-style: none none solid;
 }
