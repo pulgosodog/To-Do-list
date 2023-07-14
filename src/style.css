@@ -1,6 +1,7 @@
 body {
   background-color: #F6F6F6;
   font-family: sans-serif;
+  font-size: 1.3rem;
   margin: 0;
 }
 
@@ -12,7 +13,7 @@ section {
   height: 100vh;
 }
 
-div {
+div.container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width:65vw;
 }
@@ -24,10 +25,12 @@ h1 {
 }
 
 input {
+  font-size: inherit;
   border: none;
 }
 
 input[type="text"]:focus {
+  
   outline: none;
 }
 
@@ -39,6 +42,15 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+div.complete {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: grey;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
 }
 
 .item {
