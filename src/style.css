@@ -29,6 +29,10 @@ input {
   border: none;
 }
 
+input[type="text"] {
+  width: 98%;
+}
+
 input[type="text"]:focus {
   outline: none;
 }
